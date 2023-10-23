@@ -1,9 +1,11 @@
-for number in range(1, 101):
-    if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz")
-    elif number % 3 == 0:
-        print("Fizz")
-    elif number % 5 == 0:
-        print("Buzz")
-    else:
-        print(number)
+for (let number = 1; number <= 100; number++) {
+    if (number % 3 === 0 && number % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (number % 3 === 0) {
+        console.log("Fizz");
+    } else if (number % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(number);
+    }
+}
